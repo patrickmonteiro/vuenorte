@@ -18,7 +18,7 @@ Dessa forma evitamos qualquer problema com os projetos antigos construidos com o
 
 Agora clone esse projeto dentro do mesmo diretório:
 ```sh
-git clone 
+git clone https://github.com/patrickmonteiro/vuenorte
 ```
 
 Acesse o diretório vuenorte e instale as dependências:
