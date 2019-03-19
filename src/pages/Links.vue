@@ -14,8 +14,6 @@
   <q-tab name="comunidades" label="Comunidades Locais" />
   </q-tabs>
 
-  <q-separator />
-
   <q-tab-panels v-model="tab" animated>
     <q-tab-panel name="blogs">
       <div class="text-h6">Blogs e Artigos</div>
@@ -41,7 +39,7 @@ export default {
   name: 'Links',
   data () {
     return {
-      tab: 'mails'
+      tab: 'blogs'
     }
   }
 }
