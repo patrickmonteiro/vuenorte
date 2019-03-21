@@ -47,7 +47,9 @@ module.exports = function (ctx) {
         'QTabPanels',
         'QTabPanel',
         'QCard',
-        'QSeparator'
+        'QSeparator',
+        'QBadge',
+        'QTooltip'
       ],
 
       directives: [

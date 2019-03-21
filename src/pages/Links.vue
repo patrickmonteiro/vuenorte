@@ -17,7 +17,28 @@
   <q-tab-panels v-model="tab" animated>
     <q-tab-panel name="blogs">
       <div class="text-h6">Blogs e Artigos</div>
-      Uma lista com blogs e artigos
+      <div class="q-pa-md" >
+      <q-list dense>
+        <q-item>
+          <q-item-section>
+            <q-item-label>Curso Vue.js</q-item-label>
+            <q-item-label caption lines="2">Curso disponibilizado na plataforma Udemy.</q-item-label>
+          </q-item-section>
+
+          <q-item-section side top>
+            <!-- <q-item-label caption>5 min ago</q-item-label> -->
+            <q-btn dense icon="open_in_new" color="green">
+              <q-tooltip>
+                Visitar Link
+              </q-tooltip>
+            </q-btn>
+            <!-- <q-icon name="star" color="yellow" ></q-icon> -->
+          </q-item-section>
+        </q-item>
+
+        <q-separator spaced inset ></q-separator>
+      </q-list>
+    </div>
     </q-tab-panel>
 
     <q-tab-panel name="cursos">
