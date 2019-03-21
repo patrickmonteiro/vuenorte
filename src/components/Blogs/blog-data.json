@@ -1,0 +1,27 @@
+[
+  {
+    "titulo": "Arquitetura de projetos Vue.js com DDD",
+    "link": "https://blog.codecasts.com.br/arquitetura-de-projetos-vue-js-com-ddd-a2bc26817793",
+    "descricao": "Facilitando a manutenção, reuso e escala de projetos Vue.js com Domain Driven Design."
+  },
+  {
+    "titulo": "Vila do Silício",
+    "link": "http://viladosilicio.com.br",
+    "descricao": "Blog com artigos em Português"
+  },
+  {
+    "titulo": "Vue.js Brasil",
+    "link": "https://vuejs-brasil.com.br",
+    "descricao": "Artigos em Português sobre Vue.js"
+  }, 
+  {
+    "titulo": "Vue.js Developers",
+    "link": "https://vuejsdevelopers.com",
+    "descricao": "Artigos em Inglês sobre Vue"
+  },
+  {
+    "titulo": "Guia de estudos Javascript",
+    "link": "https://gist.github.com/vinicius73/60027329a3855e15b2eeaa3fd588d",
+    "descricao": "Guia de estudos com lista selecionada  de artigos e vídeos sobre Javascript"
+  }
+]
