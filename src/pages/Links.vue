@@ -39,7 +39,7 @@ export default {
   name: 'Links',
   data () {
     return {
-      tab: 'mails'
+      tab: 'blogs'
     }
   }
 }
