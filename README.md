@@ -29,6 +29,6 @@ e execute o seguinte comando para levantar seu ambiente de desenvolvimento com a
 ```sh
 npx quasar dev
 ```
-Observe se no seu console o **pkg quasar** está **v1.0.0-beta.10**
+Observe se no seu console o **pkg quasar** está **v1.0.0-beta.10** e **pkg @quasar/app - v1.0.0-beta-13** 
 
 Pronto, agora você pode modificar e fazer seu pull request com novas ideias para nossa comunidade.
