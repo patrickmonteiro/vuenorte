@@ -30,7 +30,7 @@
     >
       <q-list>
         <q-item-label header>Menu</q-item-label>
-        <q-item clickable to="/" active-class="text-green">
+        <q-item clickable :to="{name: 'home'}" exact active-class="text-green">
           <q-item-section avatar>
             <q-icon name="home" />
           </q-item-section>

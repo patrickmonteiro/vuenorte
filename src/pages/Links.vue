@@ -22,12 +22,12 @@
 
     <q-tab-panel name="cursos">
       <div class="text-h6">Cursos</div>
-      Uma lista de cursos
+      Lista de cursos
     </q-tab-panel>
 
     <q-tab-panel name="comunidades">
       <div class="text-h6">Comunidades Locais</div>
-      Lista de links de comunidades locais.
+      <comunidades></comunidades>
     </q-tab-panel>
   </q-tab-panels>
 </q-card>
@@ -36,10 +36,12 @@
 
 <script>
 import Blogs from 'components/Blogs/Blogs'
+import Comunidades from 'components/Comunidades/Comunidades'
 export default {
   name: 'Links',
   components: {
-    Blogs
+    Blogs,
+    Comunidades
   },
   data () {
     return {

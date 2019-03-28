@@ -1,10 +1,10 @@
 <template>
   <q-page class="container q-pa-md">
-    <div class="row">
+    <div class="row q-px-lg q-pb-sm">
       <div class="col">
-        <span class="text-body1 text-weight-medium">
+        <span class="text-caption">
         Nossa comunidade surgiu juntamente com a popularização do framework Vue.js.<br>
-        Tivemos a iniciativa de reunir desenvolvedores e interessados no framework uma vês ao mês,
+        Tivemos a iniciativa de reunir desenvolvedores e interessados no framework uma vez ao mês,
         para apresentar experiências, técnicas, boas práticas, cases e claro fazer um bom network entre
         a comunidade da nossa região.
         </span>
@@ -18,7 +18,7 @@
           arrows
           navigation
           infinite
-          height="30rem"
+          height="38rem"
         >
           <q-carousel-slide :name="1" img-src="statics/meetup1.JPG" />
           <q-carousel-slide :name="2" img-src="statics/meetup6.jpeg" />
